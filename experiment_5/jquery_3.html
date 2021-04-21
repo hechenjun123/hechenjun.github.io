@@ -1,1 +1,42 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.6.0.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+  $(".flip").click(function(){
+    $(".panel").slideDown("slow");
+  });
+});
+</script>
+ 
+<style type="text/css"> 
+div.panel,p.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:#C430E3;
+border:solid 1px ;
+}
+div.panel
+{
+height:120px;
+display:none;
+}
+</style>
+</head>
+ 
+<body>
+ 
+<div class="panel">
+<p>谁是最可爱的小宝贝？</p>
+<p>是桐桐哦！</p>
+<p>你看连背景都是紫色呢</p>
+</div>
+ 
+<p class="flip">点我有惊喜！</p>
+ 
+</body>
+</html>
