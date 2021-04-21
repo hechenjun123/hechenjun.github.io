@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.6.0.js"></script>
+ <script>
+$("document").ready(function(){
+$("button").click(function(){
+$("#div1").fadeToggle();
+$("#div2").fadeToggle("slow");
+$("#div3").fadeToggle(3000);
+});
+});
+</script>
+</head>
+<body>
+<p>你会神奇的魔术啦</p>
+<button>请开始你的表演</button>
+<br>
+<div id="div1" style="width:80px;height:80px;background-color:#61D6DD;"></div><br>
+<div id="div2" style="width:80px;height:80px;background-color:#D433DD;"></div><br>
+<div id="div3" style="width:80px;height:80px;background-color:#50D87E;"></div>
+</body>
+</html>
